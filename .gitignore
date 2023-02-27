@@ -1,0 +1,10 @@
+.idea/
+.ipynb*
+__py*
+
+model_states/
+ignore/
+main.pdf
+
+ignore/data/
+outputs/
