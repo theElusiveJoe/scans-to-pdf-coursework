@@ -1,0 +1,16 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Глава 1 Логическое рассуждение}{3}{}%
+\contentsline {section}{\numberline {1.1}ЗАДАЧА 1.1}{4}{}%
+\contentsline {section}{\numberline {1.2}Обычный подход}{4}{}%
+\contentsline {section}{\numberline {1.3}образцовое решение}{4}{}%
+\contentsline {section}{\numberline {1.4}ЗАДАЧА 1.2}{5}{}%
+\contentsline {section}{\numberline {1.5}Обычный подход}{5}{}%
+\contentsline {section}{\numberline {1.6}Образцовое решение}{5}{}%
+\contentsline {section}{\numberline {1.7}ЗАДАЧА 1.3}{5}{}%
+\contentsline {section}{\numberline {1.8}Обычный подход}{5}{}%
+\contentsline {section}{\numberline {1.9}Образцовое решение}{5}{}%
+\contentsline {section}{\numberline {1.10}ЗАДАЧА 1.4}{6}{}%
+\contentsline {section}{\numberline {1.11}Обычный подход}{6}{}%
+\contentsline {section}{\numberline {1.12}Образцовое решение}{6}{}%
+\contentsline {section}{\numberline {1.13}ЗАДАЧА 1.5}{7}{}%
+\contentsline {section}{\numberline {1.14}Обычный подход}{7}{}%

@@ -1,0 +1,991 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.15)  27 FEB 2023 21:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main_gray.tex
+(./main_gray.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-04-10>
+(/usr/share/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count194
+\U@D=\dimen139
+\l@unhyphenated=\language87
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count195
+
+(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+))
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+(/usr/share/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/usr/share/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/share/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count196
+\c@Blindtext=\count197
+\c@blind@countparstart=\count198
+\blind@countxx=\count199
+\blindtext@numBlindtext=\count266
+\blind@countyy=\count267
+\c@blindlist=\count268
+\c@blindlistlevel=\count269
+\c@blindlist@level=\count270
+\blind@listitem=\count271
+\c@blind@listcount=\count272
+\c@blind@levelcount=\count273
+\blind@mathformula=\count274
+\blind@Mathformula=\count275
+\c@blind@randomcount=\count276
+\c@blind@randommax=\count277
+\c@blind@pangramcount=\count278
+\c@blind@pangrammax=\count279
+)
+(/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-04-10 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count280
+\l__pdf_internal_box=\box50
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count281
+\l__lipsum_a_int=\count282
+\l__lipsum_b_int=\count283
+
+(/usr/share/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+(/usr/share/texmf-dist/tex/latex/koma-script/scrextend.sty
+Package: scrextend 2021/11/13 v3.35 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen142
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count284
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count285
+\leftroot@=\count286
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count287
+\DOTSCASE@=\count288
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count289
+\c@MaxMatrixCols=\count290
+\dotsspace@=\muskip16
+\c@parentequation=\count291
+\dspbrk@lvl=\count292
+\tag@help=\toks20
+\row@=\count293
+\column@=\count294
+\maxfields@=\count295
+\andhelp@=\toks21
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks22
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+Package bm Info: No bold for \OT1/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \OML/ztmcm/m/it, using \pmb.
+Package bm Info: No bold for \OMS/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \OMX/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \OT1/ptm/bx/n, using \pmb.
+Package bm Info: No bold for \OT1/ptm/m/it, using \pmb.
+)
+(/usr/share/texmf-dist/tex/latex/zref/zref-user.sty
+Package: zref-user 2022-04-07 v2.34 Module user for zref (HO)
+
+(/usr/share/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+))
+(/usr/share/texmf-dist/tex/latex/zref/zref-abspos.sty
+Package: zref-abspos 2022-04-07 v2.34 Module abspos for zref (HO)
+
+(/usr/share/texmf-dist/tex/latex/zref/zref-savepos.sty
+Package: zref-savepos 2022-04-07 v2.34 Module savepos for zref (HO)
+Package zref Info: New property list: savepos on input line 79.
+Package zref Info: New property: posx on input line 81.
+Package zref Info: New property: posy on input line 82.
+)
+(/usr/share/texmf-dist/tex/latex/zref/zref-pagelayout.sty
+Package: zref-pagelayout 2022-04-07 v2.34 Module pagelayout for zref (HO)
+
+(/usr/share/texmf-dist/tex/latex/zref/zref-thepage.sty
+Package: zref-thepage 2022-04-07 v2.34 Module thepage for zref (HO)
+
+(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+(/usr/share/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
+\c@abspage=\count296
+Package zref Info: New property: abspage on input line 65.
+)
+Package zref Info: New property list: thepage on input line 58.
+Package zref Info: New property: pagevalue on input line 60.
+)
+(/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+Package zref Info: New property: mag on input line 73.
+Package zref Info: New property: paperwidth on input line 74.
+Package zref Info: New property: paperheight on input line 75.
+Package zref Info: New property: pdfpagewidth on input line 98.
+Package zref Info: New property: pdfpageheight on input line 99.
+Package zref Info: New property: pdfhorigin on input line 100.
+Package zref Info: New property: pdfvorigin on input line 101.
+Package zref Info: New property: hoffset on input line 103.
+Package zref Info: New property: voffset on input line 104.
+Package zref Info: New property: topmargin on input line 105.
+Package zref Info: New property: oddsidemargin on input line 106.
+Package zref Info: New property: evensidemargin on input line 107.
+Package zref Info: New property: textwidth on input line 108.
+Package zref Info: New property: textheight on input line 109.
+Package zref Info: New property: headheight on input line 110.
+Package zref Info: New property: headsep on input line 111.
+Package zref Info: New property: footskip on input line 112.
+Package zref Info: New property: marginparwidth on input line 113.
+Package zref Info: New property: marginparsep on input line 114.
+Package zref Info: New property: columnwidth on input line 115.
+Package zref Info: New property: columnsep on input line 116.
+Package zref Info: New property: outputboxwd on input line 133.
+Package zref Info: New property: outputboxht on input line 133.
+Package zref Info: New property: outputboxdp on input line 133.
+))
+(./defenitions_gray.tex
+\c@chaptercounter=\count297
+\c@textcounter=\count298
+\c@smalltextcounter=\count299
+\c@sectioncounter=\count300
+\c@subsectioncounter=\count301
+\c@formulacounter=\count302
+) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count303
+\Gm@cntv=\count304
+\c@Gm@tempcnt=\count305
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks24
+)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 56.
+
+(./content.tex
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+.
+ (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(./main_gray.aux
+
+LaTeX Warning: Label `poschapterstart0' multiply defined.
+
+
+LaTeX Warning: Label `poschapterfinish0' multiply defined.
+
+)
+\openout1 = `main_gray.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count306
+\scratchdimen=\dimen159
+\scratchbox=\box53
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen160
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks26
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a5paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(65.44133pt, 284.52757pt, 71.13188pt)
+* v-part:(T,H,B)=(45.5244pt, 480.28181pt, 71.70166pt)
+* \paperwidth=421.10078pt
+* \paperheight=597.50787pt
+* \textwidth=284.52757pt
+* \textheight=480.28181pt
+* \oddsidemargin=-6.82866pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-58.61938pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=51.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Chapter 1.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
+.
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+Overfull \hbox (11.14984pt too wide) in paragraph at lines 12--13
+\OT1/ptm/m/n/12 sea brown with rock against joy long.Class just oxy-gen present
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 16.
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 16.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 16.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 16.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 16
+.
+
+(/usr/share/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+! Undefined control sequence.
+<argument> ...] + [ { \cal R } \_ { i } , { \calL 
+                                                  } \_ { j } ] = 2 \epsilon ...
+l.20 ... \_ { i j } ^ { l } { \cal R } \_ { l } .}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (36.04819pt too wide) detected at line 24
+\OML/ztmcm/m/it/12 w[][][] \OT1/ztmcm/m/n/12 = [] : \OML/ztmcm/m/it/12 Q[]l\OT1
+/ztmcm/m/n/12 [\OML/ztmcm/m/it/12 j\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 P\OT1/
+ztmcm/m/n/12 ) + [](\OML/ztmcm/m/it/12 P\OT1/ztmcm/m/n/12 )] : +(\OMS/ztmcm/m/n
+/12 ^^@\OT1/ztmcm/m/n/12 1)[]\OML/ztmcm/m/it/12 Q[]l[]\OT1/ztmcm/m/n/12 [[](\OM
+L/ztmcm/m/it/12 P\OT1/ztmcm/m/n/12 )]\OML/ztmcm/m/it/12 ;  l < N;
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+</home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_images_
+monocrome/323.png, id=20, 261.97874pt x 260.975pt>
+File: /home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_im
+ages_monocrome/323.png Graphic file (type png)
+<use /home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_ima
+ges_monocrome/323.png>
+Package pdftex.def Info: /home/f/Programming/projects/scans_to_pdf_cg_cv/latex/
+content/geometry_images_monocrome/323.png  used on input line 40.
+(pdftex.def)             Requested size: 178.1192pt x 177.43675pt.
+
+Overfull \hbox (0.92609pt too wide) in paragraph at lines 42--43
+\OT1/ptm/m/n/12 yel-low com-pare eight con-tain.To use school ex-pe-ri-ence nos
+e
+ []
+
+
+Overfull \hbox (0.76715pt too wide) in paragraph at lines 44--45
+[]\OT1/ptm/m/n/12 Machine ar-rive drive yet moun-tain hu-man to-gether.More
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3 </home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_imag
+es_monocrome/323.png>]
+Overfull \hbox (1.74167pt too wide) in paragraph at lines 48--49
+\OT1/ptm/m/n/12 mid-dle.Pound bot-tom op-po-site felt twenty plu-ral death agre
+e
+ []
+
+
+Overfull \hbox (133.05135pt too wide) detected at line 54
+\OML/ztmcm/m/it/12 X[]q[] \OT1/ztmcm/m/n/12 = \OML/ztmcm/m/it/12 P[][][]\OT1/zt
+mcm/m/n/12 (\OML/ztmcm/m/it/12 P[][]A[]\OT1/ztmcm/m/n/12 1\OML/ztmcm/m/it/12 R[
+][]A[]\OT1/ztmcm/m/n/12 2)\OML/ztmcm/m/it/12 P[][][] ;   X[]q[] \OT1/ztmcm/m/n/
+12 = \OML/ztmcm/m/it/12 P[][][]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 P[][]A[]\O
+T1/ztmcm/m/n/12 1\OML/ztmcm/m/it/12 R[][]A[]\OT1/ztmcm/m/n/12 2)\OML/ztmcm/m/it
+/12 P[][][] :
+ []
+
+
+Overfull \hbox (10.26166pt too wide) in paragraph at lines 58--59
+\OT1/ptm/m/n/12 pair kept pat-tern mind world elec-tric has sep-a-rate long an.
+Save
+ []
+
+
+Overfull \hbox (1.47852pt too wide) in paragraph at lines 58--59
+\OT1/ptm/m/n/12 fly show ex-cite shoe wish hu-man moon force morn-ing which
+ []
+
+
+Overfull \hbox (0.60196pt too wide) in paragraph at lines 58--59
+\OT1/ptm/m/n/12 vowel re-sult ar-rive in-vent.Ran space sell shoe fig guess nor
+th
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
+
+Overfull \hbox (183.17358pt too wide) detected at line 64
+\OT1/ztmcm/m/n/10.95 (1 \OMS/ztmcm/m/n/10.95 ^^@ \OML/ztmcm/m/it/10.95 ^^R[]\OT
+1/ztmcm/m/n/10.95 )(\OML/ztmcm/m/it/10.95 Q[]b \OT1/ztmcm/m/n/10.95 + \OML/ztmc
+m/m/it/10.95 v[]\OT1/ztmcm/m/n/10.95 1 + \OML/ztmcm/m/it/10.95 v[]\OT1/ztmcm/m/
+n/10.95 5 \OMS/ztmcm/m/n/10.95 ^^@ [][]\OT1/ztmcm/m/n/10.95 1) + \OML/ztmcm/m/i
+t/10.95 ^^R[]\OT1/ztmcm/m/n/10.95 (1 \OMS/ztmcm/m/n/10.95 ^^@ \OML/ztmcm/m/it/1
+0.95 ^^R[]\OT1/ztmcm/m/n/10.95 )(\OML/ztmcm/m/it/10.95 H[]\OT1/ztmcm/m/n/10.95 
+1 + \OML/ztmcm/m/it/10.95 v[]\OT1/ztmcm/m/n/10.95 2 + []\OML/ztmcm/m/it/10.95 v
+[]\OT1/ztmcm/m/n/10.95 2 \OMS/ztmcm/m/n/10.95 ^^@ [][]\OT1/ztmcm/m/n/10.95 2) \
+OMS/ztmcm/m/n/10.95 ^^@ \OT1/ztmcm/m/n/10.95 (1 \OMS/ztmcm/m/n/10.95 ^^@ \OML/z
+tmcm/m/it/10.95 ^^R[]\OT1/ztmcm/m/n/10.95 )(\OML/ztmcm/m/it/10.95 q[]\OT1/ztmcm
+/m/n/10.95 1[] + \OML/ztmcm/m/it/10.95 v[]\OT1/ztmcm/m/n/10.95 3 + [][]4 \OMS/z
+tmcm/m/n/10.95 ^^@ \OML/ztmcm/m/it/10.95 v[]\OT1/ztmcm/m/n/10.95 4) = 0
+ []
+
+
+Overfull \hbox (5.2342pt too wide) in paragraph at lines 80--81
+\OT1/ptm/m/n/12 may day.Base cur-rent need claim bank do front.Total whether
+ []
+
+
+Overfull \hbox (2.8433pt too wide) in paragraph at lines 82--83
+[]\OT1/ptm/m/n/12 Day right sur-prise coat care or noon melody.Said through
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+Overfull \hbox (7.86205pt too wide) in paragraph at lines 84--85
+\OT1/ptm/m/n/12 by.Dress fruit mother orig-i-nal branch in floor vary their who
+se
+ []
+
+
+Overfull \hbox (63.80157pt too wide) detected at line 86
+[] \OT1/ztmcm/m/n/12 = [] + [] + \OML/ztmcm/m/it/12 [][] [] [][][]N[]i\OT1/ptm
+/b/n/12 e[]\OML/ztmcm/m/it/12 i \OT1/ztmcm/m/n/12 + \OML/ztmcm/m/it/12 [][] []
+ [][][]M[]i\OT1/ptm/b/n/12 e[]\OML/ztmcm/m/it/12 i;
+ []
+
+
+Overfull \hbox (10.68216pt too wide) in paragraph at lines 90--91
+\OT1/ptm/m/n/12 speak be-hind though mag-net.Some fun cross stood told speech
+ []
+
+
+Overfull \hbox (0.56638pt too wide) in paragraph at lines 92--93
+\OT1/ptm/m/n/12 ma-te-rial whose sec-ond house bought never.Chief place book
+ []
+
+
+Overfull \hbox (0.74637pt too wide) in paragraph at lines 98--99
+\OT1/ptm/m/n/12 not brown noun sol-dier moon see which tri-an-gle.Sheet down
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7] [8
+
+
+]
+Chapter 2.
+
+Overfull \hbox (11.16136pt too wide) in paragraph at lines 106--107
+\OT1/ptm/m/n/12 Learn ma-chine stay board steel to-ward col-lect it been note.L
+ife
+ []
+
+
+Overfull \hbox (2.0289pt too wide) in paragraph at lines 106--107
+\OT1/ptm/m/n/12 snow his-tory touch fish about tail hit sim-i-lar.Fill cer-tain
+ earth
+ []
+
+
+Overfull \hbox (25.23476pt too wide) in paragraph at lines 108--109
+[]\OT1/ptm/m/n/12 Value quite rub us study late poor mea-sure pro-cess pound.Fi
+re
+ []
+
+</home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_images_
+monocrome/2391.png, id=41, 559.33969pt x 468.24937pt>
+File: /home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_im
+ages_monocrome/2391.png Graphic file (type png)
+<use /home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_ima
+ges_monocrome/2391.png>
+Package pdftex.def Info: /home/f/Programming/projects/scans_to_pdf_cg_cv/latex/
+content/geometry_images_monocrome/2391.png  used on input line 114.
+(pdftex.def)             Requested size: 283.71466pt x 237.51079pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (2.68974pt too wide) in paragraph at lines 116--117
+\OT1/ptm/m/n/12 loud good.Decimal agree be-lieve area re-sult live sat.Big pop-
+
+ []
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10 </home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_ima
+ges_monocrome/2391.png>]
+</home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_images_
+monocrome/315.png, id=48, 624.83438pt x 243.91125pt>
+File: /home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_im
+ages_monocrome/315.png Graphic file (type png)
+<use /home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_ima
+ges_monocrome/315.png>
+Package pdftex.def Info: /home/f/Programming/projects/scans_to_pdf_cg_cv/latex/
+content/geometry_images_monocrome/315.png  used on input line 128.
+(pdftex.def)             Requested size: 362.83324pt x 141.6361pt.
+
+Overfull \hbox (78.30566pt too wide) in paragraph at lines 128--128
+ [][] 
+ []
+
+
+Overfull \hbox (15.23044pt too wide) in paragraph at lines 136--137
+\OT1/ptm/m/n/12 went had cut bank syl-la-ble chance pretty prove hu-man to.Ange
+r
+ []
+
+
+Overfull \hbox (16.1297pt too wide) in paragraph at lines 136--137
+\OT1/ptm/m/n/12 thought leg that ob-serve thin dis-cuss fa-ther top tie sys-tem
+.Cover
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11 </home/f/Programming/projects/scans_to_pdf_cg_cv/latex/content/geometry_ima
+ges_monocrome/315.png>]
+Overfull \hbox (24.80495pt too wide) in paragraph at lines 144--145
+\OT1/ptm/m/n/12 Moment sec-ond elec-tric ease ma-te-rial give ready sheet wife.
+More
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+! Undefined control sequence.
+<argument> ...tial } { \partial t } } \sqrt { \ls 
+                                                  } = - 2 \int \_ { 0 } ^ { ...
+l.152 ... { i } ( y ) g \_ { i } ( x ) \, d y d x}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.62576pt too wide) in paragraph at lines 154--155
+\OT1/ptm/m/n/12 tween col-umn sign party.Numeral suit able voice near whether
+ []
+
+
+Overfull \hbox (3.69762pt too wide) in paragraph at lines 162--163
+\OT1/ptm/m/n/12 few sim-i-lar try de-pend those coun-try less spend.Repeat coun
+t
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+Overfull \hbox (1.98227pt too wide) in paragraph at lines 176--177
+\OT1/ptm/m/n/12 edge con-trol base done lone eight.Square idea thought where
+ []
+
+
+Overfull \hbox (4.21413pt too wide) in paragraph at lines 176--177
+\OT1/ptm/m/n/12 shell led hour ev-ery said hand last present.Heavy same young
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+Overfull \hbox (29.61472pt too wide) in paragraph at lines 178--179
+[]\OT1/ptm/m/n/12 Miss month heart won't gold what fill could suit through.Much
+
+ []
+
+! Undefined control sequence.
+<argument> ... { 0 } ^ { 1 } d \lambda ~ \lambdaR 
+                                                  \_ { b , \nu \mu } ^ { a }...
+l.186 ... { b , \nu \mu } ^ { a } ( \lambda \xi )}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \omega \_ { W Z } = - i d \bk 
+                                         { { \calK } } { g ^ { - 1 } ( \sigm...
+l.188 ... g ( \sigma , \tau ) ) ^ { 2 } } ~ ~ ~ ,}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ga \_ { W Z } = - i d \bk { { \calK 
+                                                  } } { g ^ { - 1 } ( \sigma...
+l.188 ... g ( \sigma , \tau ) ) ^ { 2 } } ~ ~ ~ ,}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...u ) d g ( \sigma , \tau ) } = i \bk 
+                                                  { { \cal K } } { ( g ^ { -...
+l.188 ... g ( \sigma , \tau ) ) ^ { 2 } } ~ ~ ~ ,}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (11.89851pt too wide) detected at line 188
+\OML/ztmcm/m/it/12 ![][] \OT1/ztmcm/m/n/12 = \OMS/ztmcm/m/n/12 ^^@\OML/ztmcm/m/
+it/12 id[][] \OT1/ztmcm/m/n/12 = \OML/ztmcm/m/it/12 i\OMS/ztmcm/m/n/12 K[]   \O
+ML/ztmcm/m/it/12 ;
+ []
+
+
+Overfull \hbox (4.62183pt too wide) in paragraph at lines 192--193
+\OT1/ptm/m/n/12 tain cot-ton feel cow yel-low cre-ate.Experiment com-pany town
+ []
+
+
+Overfull \hbox (13.9815pt too wide) in paragraph at lines 192--193
+\OT1/ptm/m/n/12 ob-ject far are dad pass.Now test unit tie sense op-po-site eve
+ning.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15] (./main_gray.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) )
+(\end occurred when \ifx on line 56 was incomplete)
+(\end occurred when \ifnum on line 56 was incomplete) 
+Here is how much of TeX's memory you used:
+ 7627 strings out of 478238
+ 133185 string characters out of 5850455
+ 566517 words of memory out of 5000000
+ 25660 multiletter control sequences out of 15000+600000
+ 519004 words of font info for 130 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 108i,12n,106p,598b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fon
+ts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/rsfs/rsfs10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8
+a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/te
+xmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw
+/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/
+share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on main_gray.pdf (15 pages, 142574 bytes).
+PDF statistics:
+ 117 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

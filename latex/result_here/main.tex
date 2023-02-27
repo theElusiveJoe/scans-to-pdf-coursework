@@ -1,0 +1,41 @@
+\documentclass[11pt, a4paper]{book}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage[russian,english]{babel}
+
+% верхний колонтитул
+\usepackage{fancyhdr}\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ #1}{}}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}
+\fancyhead[RE]{\hfill \leftmark \hfill \thepage}
+\fancyhead[LO]{\thepage \hfill Problem-Solving Strategies in Mathematics \hfill}
+% убираем номер страницы внизу
+\fancyfoot{}
+
+% шрифты Times
+%\usepackage{times}
+%\usepackage{mathptmx}
+
+% балаболка
+\usepackage{blindtext}
+\usepackage{lipsum}
+
+% картинки
+\usepackage{graphicx}
+
+% цвета
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{wasysym}
+
+% отступы
+\usepackage{geometry}
+
+
+\begin{document}
+    \tableofcontents
+
+    \include{content.tex}
+\end{document}

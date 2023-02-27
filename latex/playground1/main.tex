@@ -1,0 +1,47 @@
+\documentclass[10pt]{article}
+
+\usepackage{lipsum}% http://ctan.org/pkg/lipsum
+
+\usepackage[english]{babel}
+\usepackage{url}
+\usepackage{graphicx,DCCN2021_ru}
+
+%                 ЗАГОЛОВКИ
+\usepackage{titlesec}
+\usepackage[nameinlink]{cleveref}
+\titleformat{\section}
+{\large\bfseries\centering}{\textsection\hspace{0.3em}\thesection.}{0.3em}{}
+
+\titleformat{\subsection}[runin]
+{\bfseries}{\hspace{1.25em}\thesection.}{0.1em}{}
+
+
+% 				ШРИФТ
+\usepackage[]{noto}
+\usepackage[T1]{fontenc}
+
+\usepackage[skip=0pt, indent=1.25em]{parskip}
+
+
+\pagestyle{fancy}
+\fancyhead{}
+
+\usepackage[utf8]{inputenc}
+\linespread{1.0}
+
+%    переносы
+\sloppy
+
+% штучка сверху
+\makeatletter
+\fancyhead[RO]{ 1234 }
+\fancyhead[C]{ Глава или часть }
+
+
+\begin{document}
+
+\include{content}
+
+\end{document}
+
+

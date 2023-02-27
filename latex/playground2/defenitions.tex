@@ -1,0 +1,183 @@
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 chapters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcounter{chaptercounter}
+\def\@makechapterhead#1{
+\color{cyan}
+  \vspace*{50\p@}
+  {\parindent \z@ \centering
+    \normalfont
+    \recordcurpos{chapter}{start}{chaptercounter}
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+      % надпись "Chapter i"
+        {\bfseries
+        \Large
+        \sffamily 
+        Chapter 
+        \thechapter
+        \par\nobreak
+        \vskip 10\p@
+        }
+      \fi
+    \fi
+    \interlinepenalty\@M
+    % название части
+    {
+    \rmfamily
+    \Huge 
+    \sffamily
+    \scshape
+    \mdseries 
+    #1
+    }
+
+    \par\nobreak
+    \vskip 40\p@
+
+    \recordcurpos{chapter}{finish}{chaptercounter}
+    \addtocontents{chaptercounter}{1}
+%    \color{cyan}
+%    \hline
+  }}
+  
+\def\@schapter#1{
+  
+                  \if@twocolumn
+                   \@topnewpage[\@makeschapterhead{#1}]%
+                 \else
+                   \@makeschapterhead{#1}%
+                   \@afterheading
+                 \fi
+}
+
+\def\@makeschapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \centering
+    \normalfont
+    \interlinepenalty\@M
+    \Huge \bfseries  #1\par\nobreak
+    \vskip 50\p@
+  }}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcounter{textcounter}
+\newcommand{\mytext}[1]{
+    \normalsize
+    \color{red}
+    \recordcurpos{text}{start}{textcounter}
+    #1
+%    \color{cyan}
+%    \hline
+    \recordcurpos{text}{finish}{textcounter}
+    \addtocounter{textcounter}{1}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 smalltext
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcounter{smalltextcounter}
+\newcommand{\smalltext}[1]{
+    \recordcurpos{smalltext}{start}{smalltextcounter}
+    \color{green}
+    \small
+    \begin{addmargin}[1em]{2em}% 1em left, 2em right
+    #1
+    \end{addmargin}
+%    \color{cyan}
+%    \hline
+    \recordcurpos{smalltext}{finish}{smalltextcounter}
+    \addtocounter{smalltextcounter}{1}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 section
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcounter{sectioncounter}
+\newcommand{\mysection}[1]{
+    \recordcurpos{section}{start}{sectioncounter}
+    \color{yellow}
+    \section*{#1}
+%    \color{cyan}
+%    \hline
+    \recordcurpos{section}{finish}{sectioncounter}
+    \addtocounter{sectioncounter}{1}
+}
+\renewcommand\section{\@startsection {\MakeUppercase{section}}{1}{\z@}
+                                    {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                    {2.3ex \@plus.2ex}%
+                                    {\normalfont\sffamily\large\bfseries}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 subsection
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcounter{subsectioncounter}
+\newcommand{\mysubsection}[1]{
+    \recordcurpos{subsection}{start}{subsectioncounter}
+    \color{magenta}
+    \subsection*{#1}
+%    \color{cyan}
+%    \hline
+    \recordcurpos{subsection}{finish}{subsectioncounter}
+    \addtocounter{subsectioncounter}{1}
+}
+
+\renewcommand\subsection{
+  \@startsection {section}{1}{\z@}%
+  {-3.5ex \@plus -1ex \@minus -.2ex}%
+  {2.3ex \@plus.2ex}%
+  {\normalfont\large\sffamily\bfseries}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 mathformula
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcounter{formulacounter}
+\newcommand{\formula}[1]{
+    \color{blue}
+    \recordcurpos{formula}{start}{formulacounter}
+    $$ #1 $$
+%    \color{cyan}
+%    \hline
+    \recordcurpos{formula}{finish}{formulacounter}
+    \addtocounter{formulacounter}{1}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 image
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\insertimage}[2]{
+    \begin{figure}[!h]
+    \centering
+    \includegraphics[scale=#2]{#1}
+    \caption{}
+    \end{figure}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 recordcurpos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\recordcurpos}[3]{
+    \zsavepos{pos#1#2\arabic{#3}}
+    % \typeout{
+%    \immediate\write\file{
+%        ,{
+%          "class":"#1",
+%          "type":"#2",
+%          %  "x":"\the\dimexpr \zposx{pos#2\arabic{#3}} sp",
+%          "y":"\the\dimexpr \zposy{pos#1#2\arabic{#3}} sp",
+%          "pagenum": \thepage,
+%          "counter": \arabic{#3}
+%          %  "id": "#1#2\arabic{#3}"
+%        }
+%    }
+}
