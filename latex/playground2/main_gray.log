@@ -356,7 +356,7 @@ Package zref Info: New property: outputboxwd on input line 133.
 Package zref Info: New property: outputboxht on input line 133.
 Package zref Info: New property: outputboxdp on input line 133.
 ))
-(./defenitions_gray.tex
+(./definitions_gray.tex
 \c@chaptercounter=\count297
 \c@textcounter=\count298
 \c@smalltextcounter=\count299
