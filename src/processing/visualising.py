@@ -4,14 +4,16 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
 def draw_img(img, bboxes=None, labels=None, colors=None):
-    if colors is None:
-        colors = {
-            1: 'red',
-            2: 'yellow',
-            3: 'magenta',
-            4: 'blue',
-            5: 'green',
-        }
+    if bboxes is not None:
+        assert colors is not None
+    # if colors is None:
+    #     colors = {
+    #         1: 'red',
+    #         2: 'yellow',
+    #         3: 'magenta',
+    #         4: 'blue',
+    #         5: 'green',
+    #     }
     pix = np.array(img.getdata()).reshape(img.size[0], img.size[1], 3)
     plt.subplot()
     plt.imshow(pix)
